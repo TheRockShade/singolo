@@ -244,3 +244,134 @@ body {
   width: 1020px;
   margin: 0 auto;
 }
+
+.portfolio {
+  padding: 70px 40px 64px 40px;
+  
+  background: #2d303a;
+
+  border-bottom: 6px solid #323746;
+}
+
+.portfolio__title {
+  margin: 0 0 27px 0;
+
+  color: #666d89;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 17.86px;
+}
+
+.portfolio__text {
+  margin: 0 0 11px 0;
+
+  color: #767e9e;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.portfolio-catergories {
+  margin: 0 0 19px 0;
+  display: flex;
+}
+
+.portfolio-catergories__item {
+  margin: 0 10px 0 0;
+  padding: 0 7px 0 5px;
+
+  color: #767e9e;
+  font-size: 12px;
+  line-height: 20.56px;
+
+  border: 1px solid #666d89;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+.portfolio-catergories__item:hover {
+  color: #dedede;
+
+  border: 1px solid #dedede;
+}
+
+.portfolio-gallery {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.portfolio-gallery__item {
+  margin: 0 0 17px 0 
+}
+
+.portfolio-gallery__item:nth-child(n+8) {
+  margin: 0;
+}
+
+.about {
+  padding: 69px 40px 64px 40px;
+
+  background: #f2f2f2;
+
+  border-bottom: 6px solid #ffffff;
+}
+
+.about__title {
+  margin: 0 0 27px 0;
+
+  color: #666d89;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 17.86px;
+}
+
+.about__text {
+  margin: 0 0 45px 0;
+  
+  color: #767e9e;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.about-people {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-people__item {
+  width: 300px;
+}
+
+.about-people__img {}
+
+.about-people__name {
+  margin: 14px 0 11px 0;
+
+  color: #666d89;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 17.86px;
+}
+
+.about-people__cite {
+  margin: 0 0 24px 0;
+
+  color: #767e9e;
+  font-size: 12px;
+  line-height: 21.56px;
+  text-align: justify;
+}
+
+.social {
+  display: flex;
+}
+
+.social__item {
+  margin: 0 8px 0 0;
+}
+
+.social__img {}
