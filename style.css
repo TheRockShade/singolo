@@ -532,12 +532,14 @@ body {
 
 .about-people__name {
   margin: 15px 0 10px 0;
-
+  
   color: #666d89;
   font-size: 18px;
   font-weight: 900;
   line-height: 17.86px;
   letter-spacing: -0.2px;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .about-people__cite {
@@ -640,6 +642,16 @@ body {
   border-radius: 5px;
 
   cursor: pointer;
+}
+
+.button:hover {
+  background: #c94f49;
+
+  transition: all 0.5s;
+}
+
+.button:active {
+  background: #ba4a45;
 }
 
 .quote-information {
